@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Search Players</title>
+</head>
+<body>
+    <h1>Search Player by Last Name</h1>
+
+    <form action="run_query.php" method="get">
+        <input type="hidden" name="q" value="search">
+        <label for="name">Enter partial last name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <p><a href="index.html">Back to Menu</a></p>
+</body>
+</html>
