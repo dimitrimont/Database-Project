@@ -9,6 +9,7 @@
     <h3>View Raw Tables</h3>
     <ul>
         <li><a href="run_query.php?q=table&t=Player">Player</a></li>
+        <li><a href="run_query.php?q=table&t=Team">Team</a></li>
         <li><a href="run_query.php?q=table&t=PlaysFor">PlaysFor</a></li>
         <li><a href="run_query.php?q=table&t=Game">Game</a></li>
         <li><a href="run_query.php?q=table&t=PlaysIn">PlaysIn</a></li>
@@ -26,8 +27,17 @@
         <li><a href="run_query.php?q=season_teams">Teams in the Latest Season</a></li>
         <li><a href="run_query.php?q=team_touchdowns">Team Touchdown Totals</a></li>
         <li><a href="run_query.php?q=function">Run Stored FUNCTION (PlayerFullName)</a></li>
-        <li><a href="run_query.php?q=procedure&team=49ers">Run Stored PROCEDURE (Team Roster)</a></li>
     </ul>
+
+    <h3>Team Roster (Stored PROCEDURE)</h3>
+    <form action="run_query.php" method="get">
+        <input type="hidden" name="q" value="procedure">
+        <label for="team">Team:</label>
+        <input type="text" id="team" name="team" placeholder="Gulls" required>
+        <label for="season">Season:</label>
+        <input type="text" id="season" name="season" placeholder="latest" inputmode="numeric" pattern="[0-9]{4}">
+        <button type="submit">Show roster</button>
+    </form>
 
     <h3>Search</h3>
     <ul>

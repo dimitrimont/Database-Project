@@ -1,0 +1,749 @@
+[
+ {
+  "move": 0.0,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 83,
+    "Foxes": 129,
+    "Comets": 114,
+    "Pilots": 112,
+    "Herons": 101,
+    "Badgers": 103,
+    "Owls": 105,
+    "Pikes": 116
+   },
+   "touchdowns_total": 863,
+   "teammate_pairs": 1848,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 103,
+    "Comets": 114,
+    "Foxes": 129,
+    "Gulls": 83,
+    "Herons": 101,
+    "Owls": 105,
+    "Pikes": 116,
+    "Pilots": 112
+   },
+   "touchdowns_total": 863,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 1848,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Foxes": 129,
+    "Pikes": 116,
+    "Comets": 114,
+    "Pilots": 112,
+    "Owls": 105,
+    "Badgers": 103,
+    "Herons": 101,
+    "Gulls": 83
+   },
+   "touchdowns_total": 863,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 1848,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.05,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 104,
+    "Foxes": 100,
+    "Comets": 118,
+    "Pilots": 106,
+    "Herons": 112,
+    "Badgers": 110,
+    "Owls": 106,
+    "Pikes": 93
+   },
+   "touchdowns_total": 849,
+   "teammate_pairs": 2404,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 132,
+    "Comets": 143,
+    "Foxes": 109,
+    "Gulls": 111,
+    "Herons": 158,
+    "Owls": 108,
+    "Pikes": 110,
+    "Pilots": 137
+   },
+   "touchdowns_total": 1008,
+   "mean_team_error_pct": 18.4,
+   "teammate_pairs": 2478,
+   "roster_sizes_latest": {
+    "Gulls": 26,
+    "Foxes": 27,
+    "Comets": 26,
+    "Pilots": 24,
+    "Herons": 25,
+    "Badgers": 25,
+    "Owls": 26,
+    "Pikes": 24
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Comets": 118,
+    "Herons": 112,
+    "Badgers": 110,
+    "Owls": 106,
+    "Pilots": 106,
+    "Gulls": 104,
+    "Foxes": 100,
+    "Pikes": 93
+   },
+   "touchdowns_total": 849,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 2404,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.1,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 95,
+    "Foxes": 125,
+    "Comets": 133,
+    "Pilots": 99,
+    "Herons": 95,
+    "Badgers": 96,
+    "Owls": 106,
+    "Pikes": 101
+   },
+   "touchdowns_total": 850,
+   "teammate_pairs": 2925,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 103,
+    "Comets": 175,
+    "Foxes": 191,
+    "Gulls": 123,
+    "Herons": 126,
+    "Owls": 130,
+    "Pikes": 101,
+    "Pilots": 120
+   },
+   "touchdowns_total": 1069,
+   "mean_team_error_pct": 24.7,
+   "teammate_pairs": 3211,
+   "roster_sizes_latest": {
+    "Gulls": 27,
+    "Foxes": 34,
+    "Comets": 28,
+    "Pilots": 28,
+    "Herons": 30,
+    "Badgers": 27,
+    "Owls": 29,
+    "Pikes": 27
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Comets": 133,
+    "Foxes": 125,
+    "Owls": 106,
+    "Pikes": 101,
+    "Pilots": 99,
+    "Badgers": 96,
+    "Gulls": 95,
+    "Herons": 95
+   },
+   "touchdowns_total": 850,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 2925,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.15,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 102,
+    "Foxes": 160,
+    "Comets": 121,
+    "Pilots": 125,
+    "Herons": 95,
+    "Badgers": 109,
+    "Owls": 105,
+    "Pikes": 99
+   },
+   "touchdowns_total": 916,
+   "teammate_pairs": 3378,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 109,
+    "Comets": 164,
+    "Foxes": 206,
+    "Gulls": 152,
+    "Herons": 136,
+    "Owls": 140,
+    "Pikes": 178,
+    "Pilots": 169
+   },
+   "touchdowns_total": 1254,
+   "mean_team_error_pct": 38.1,
+   "teammate_pairs": 3929,
+   "roster_sizes_latest": {
+    "Gulls": 28,
+    "Foxes": 36,
+    "Comets": 33,
+    "Pilots": 30,
+    "Herons": 33,
+    "Badgers": 29,
+    "Owls": 32,
+    "Pikes": 33
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Foxes": 160,
+    "Pilots": 125,
+    "Comets": 121,
+    "Badgers": 109,
+    "Owls": 105,
+    "Gulls": 102,
+    "Pikes": 99,
+    "Herons": 95
+   },
+   "touchdowns_total": 916,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 3378,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.2,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 127,
+    "Foxes": 136,
+    "Comets": 99,
+    "Pilots": 94,
+    "Herons": 98,
+    "Badgers": 82,
+    "Owls": 121,
+    "Pikes": 83
+   },
+   "touchdowns_total": 840,
+   "teammate_pairs": 3836,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 97,
+    "Comets": 168,
+    "Foxes": 210,
+    "Gulls": 182,
+    "Herons": 124,
+    "Owls": 182,
+    "Pikes": 126,
+    "Pilots": 177
+   },
+   "touchdowns_total": 1266,
+   "mean_team_error_pct": 50.3,
+   "teammate_pairs": 4832,
+   "roster_sizes_latest": {
+    "Gulls": 31,
+    "Foxes": 38,
+    "Comets": 40,
+    "Pilots": 35,
+    "Herons": 31,
+    "Badgers": 33,
+    "Owls": 37,
+    "Pikes": 36
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Foxes": 136,
+    "Gulls": 127,
+    "Owls": 121,
+    "Comets": 99,
+    "Herons": 98,
+    "Pilots": 94,
+    "Pikes": 83,
+    "Badgers": 82
+   },
+   "touchdowns_total": 840,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 3836,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.25,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 102,
+    "Foxes": 99,
+    "Comets": 160,
+    "Pilots": 105,
+    "Herons": 57,
+    "Badgers": 149,
+    "Owls": 118,
+    "Pikes": 115
+   },
+   "touchdowns_total": 905,
+   "teammate_pairs": 4281,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 248,
+    "Comets": 286,
+    "Foxes": 202,
+    "Gulls": 203,
+    "Herons": 118,
+    "Owls": 190,
+    "Pikes": 232,
+    "Pilots": 186
+   },
+   "touchdowns_total": 1665,
+   "mean_team_error_pct": 86.9,
+   "teammate_pairs": 5815,
+   "roster_sizes_latest": {
+    "Gulls": 36,
+    "Foxes": 44,
+    "Comets": 42,
+    "Pilots": 40,
+    "Herons": 37,
+    "Badgers": 36,
+    "Owls": 39,
+    "Pikes": 34
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Comets": 160,
+    "Badgers": 149,
+    "Owls": 118,
+    "Pikes": 115,
+    "Pilots": 105,
+    "Gulls": 102,
+    "Foxes": 99,
+    "Herons": 57
+   },
+   "touchdowns_total": 905,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 4281,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.3,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 143,
+    "Foxes": 100,
+    "Comets": 102,
+    "Pilots": 81,
+    "Herons": 84,
+    "Badgers": 131,
+    "Owls": 167,
+    "Pikes": 117
+   },
+   "touchdowns_total": 925,
+   "teammate_pairs": 4704,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 195,
+    "Comets": 229,
+    "Foxes": 213,
+    "Gulls": 189,
+    "Herons": 136,
+    "Owls": 303,
+    "Pikes": 221,
+    "Pilots": 155
+   },
+   "touchdowns_total": 1641,
+   "mean_team_error_pct": 80.3,
+   "teammate_pairs": 6904,
+   "roster_sizes_latest": {
+    "Gulls": 42,
+    "Foxes": 45,
+    "Comets": 48,
+    "Pilots": 42,
+    "Herons": 38,
+    "Badgers": 41,
+    "Owls": 44,
+    "Pikes": 35
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Owls": 167,
+    "Gulls": 143,
+    "Badgers": 131,
+    "Pikes": 117,
+    "Comets": 102,
+    "Foxes": 100,
+    "Herons": 84,
+    "Pilots": 81
+   },
+   "touchdowns_total": 925,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 4704,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.35,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 118,
+    "Foxes": 138,
+    "Comets": 71,
+    "Pilots": 120,
+    "Herons": 123,
+    "Badgers": 120,
+    "Owls": 130,
+    "Pikes": 92
+   },
+   "touchdowns_total": 912,
+   "teammate_pairs": 5086,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 239,
+    "Comets": 184,
+    "Foxes": 262,
+    "Gulls": 168,
+    "Herons": 237,
+    "Owls": 223,
+    "Pikes": 204,
+    "Pilots": 306
+   },
+   "touchdowns_total": 1823,
+   "mean_team_error_pct": 103.9,
+   "teammate_pairs": 8033,
+   "roster_sizes_latest": {
+    "Gulls": 42,
+    "Foxes": 47,
+    "Comets": 45,
+    "Pilots": 49,
+    "Herons": 42,
+    "Badgers": 44,
+    "Owls": 45,
+    "Pikes": 48
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Foxes": 138,
+    "Owls": 130,
+    "Herons": 123,
+    "Badgers": 120,
+    "Pilots": 120,
+    "Gulls": 118,
+    "Pikes": 92,
+    "Comets": 71
+   },
+   "touchdowns_total": 912,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 5086,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ },
+ {
+  "move": 0.4,
+  "known": {
+   "team_touchdowns": {
+    "Gulls": 120,
+    "Foxes": 117,
+    "Comets": 140,
+    "Pilots": 79,
+    "Herons": 83,
+    "Badgers": 103,
+    "Owls": 94,
+    "Pikes": 89
+   },
+   "touchdowns_total": 825,
+   "teammate_pairs": 5402,
+   "roster_size": 22,
+   "teams": 8
+  },
+  "first": {
+   "team_touchdowns": {
+    "Badgers": 243,
+    "Comets": 300,
+    "Foxes": 242,
+    "Gulls": 218,
+    "Herons": 169,
+    "Owls": 195,
+    "Pikes": 222,
+    "Pilots": 196
+   },
+   "touchdowns_total": 1785,
+   "mean_team_error_pct": 118.4,
+   "teammate_pairs": 9184,
+   "roster_sizes_latest": {
+    "Gulls": 39,
+    "Foxes": 52,
+    "Comets": 51,
+    "Pilots": 49,
+    "Herons": 51,
+    "Badgers": 50,
+    "Owls": 49,
+    "Pikes": 45
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 0,
+    "error": true
+   },
+   "search_percent_matches": 176,
+   "team_table": false
+  },
+  "revised": {
+   "team_touchdowns": {
+    "Comets": 140,
+    "Gulls": 120,
+    "Foxes": 117,
+    "Badgers": 103,
+    "Owls": 94,
+    "Pikes": 89,
+    "Herons": 83,
+    "Pilots": 79
+   },
+   "touchdowns_total": 825,
+   "mean_team_error_pct": 0.0,
+   "teammate_pairs": 5402,
+   "roster_sizes_latest": {
+    "Gulls": 22,
+    "Foxes": 22,
+    "Comets": 22,
+    "Pilots": 22,
+    "Herons": 22,
+    "Badgers": 22,
+    "Owls": 22,
+    "Pikes": 22
+   },
+   "season_teams": {
+    "status": 200,
+    "rows": 8,
+    "error": false
+   },
+   "search_percent_matches": 0,
+   "team_table": true
+  }
+ }
+]

@@ -1,0 +1,69 @@
+{
+ "move": 0.2,
+ "seed": 355,
+ "seasons": [
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "teams": [
+  "Gulls",
+  "Foxes",
+  "Comets",
+  "Pilots",
+  "Herons",
+  "Badgers",
+  "Owls",
+  "Pikes"
+ ],
+ "roster_size": 22,
+ "team_touchdowns": {
+  "Gulls": 127,
+  "Foxes": 136,
+  "Comets": 99,
+  "Pilots": 94,
+  "Herons": 98,
+  "Badgers": 82,
+  "Owls": 121,
+  "Pikes": 83
+ },
+ "player_touchdowns_total": 840,
+ "teammate_pairs": 3836,
+ "pairs_listed_by_first_version": 4832,
+ "never_together": {
+  "team": "Gulls",
+  "players": [
+   "Emeka Jablonski",
+   "Yuri Eckhart"
+  ]
+ },
+ "together": {
+  "team": "Gulls",
+  "players": [
+   "Gus Mbeki",
+   "Emeka Jablonski"
+  ]
+ },
+ "mover": {
+  "name": "Emeka Jablonski",
+  "stints": [
+   [
+    "Gulls",
+    2021,
+    2022
+   ],
+   [
+    "Owls",
+    2023,
+    null
+   ]
+  ],
+  "touchdowns_by_team": {
+   "Gulls": 14,
+   "Owls": 17
+  },
+  "touchdowns": 31
+ },
+ "last_name_contains_ar": 24
+}

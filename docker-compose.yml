@@ -1,0 +1,52 @@
+# The site and its database on your own machine:
+#   docker compose up --build            then open http://localhost:8080
+#   docker compose run --rm tests        the known-answer tests
+# The passwords below are for this local copy only.
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: local-root-only
+      MYSQL_DATABASE: CSC355FA25Football
+      MYSQL_USER: football
+      MYSQL_PASSWORD: local-only
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # Over TCP, so it passes only once the seeded server is up (the loading server has no network).
+      test: ["CMD-SHELL", "mysql -h127.0.0.1 -ufootball -plocal-only -e 'SELECT 1 FROM PlaysIn LIMIT 1' CSC355FA25Football"]
+      interval: 3s
+      retries: 60
+
+  web:
+    build: docker
+    environment: &db
+      DB_HOST: db
+      DB_NAME: CSC355FA25Football
+      DB_USER: football
+      DB_PASSWORD: local-only
+    volumes:
+      - .:/app:ro
+    working_dir: /app
+    command: php -S 0.0.0.0:8000
+    ports:
+      - "8080:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  tests:
+    build: docker
+    profiles: [test]
+    environment:
+      <<: *db
+      WEB_URL: http://web:8000
+    volumes:
+      - .:/app:ro
+    working_dir: /app
+    command: php tests/known_answers.php
+    depends_on:
+      db:
+        condition: service_healthy
+      web:
+        condition: service_started

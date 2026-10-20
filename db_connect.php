@@ -1,20 +1,27 @@
 <?php
-// This file contains the database access information.
-// This file establishes a connection to MySQL and selects the database.
+// Connects to MySQL and leaves the connection in $dbc.
+// The settings come from config.php (copy config.example.php; it is never committed) or, failing
+// that, from the environment: DB_HOST, DB_NAME, DB_USER, DB_PASSWORD (see docker-compose.yml).
 
-// Set the database access information as constants:
-const DBCONNSTRING = 'mysql:host=localhost;dbname=CSC355FA25Football';
-const DB_USER = 'djm9825';
-const DB_PASSWORD = 'REDACTED';
+$config = is_file(__DIR__ . '/config.php') ? require __DIR__ . '/config.php' : [];
+$setting = function (string $key, string $default = '') use ($config): string {
+    return $config[$key] ?? (getenv($key) !== false ? getenv($key) : $default);
+};
 
-// Make the connection:
 try {
-    $dbc = new PDO(DBCONNSTRING, DB_USER, DB_PASSWORD, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    ]);
+    $dbc = new PDO(
+        sprintf('mysql:host=%s;dbname=%s;charset=utf8mb4',
+                $setting('DB_HOST', 'localhost'), $setting('DB_NAME', 'CSC355FA25Football')),
+        $setting('DB_USER'),
+        $setting('DB_PASSWORD'),
+        [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        ]
+    );
 } catch (PDOException $e) {
-    die('DB Connection Failed: ' . $e->getMessage());
+    // The details (user name, server address) go to the server's log, not to the visitor.
+    error_log('DB connection failed: ' . $e->getMessage());
+    http_response_code(503);
+    die('The database is not available right now.');
 }
-
-?>
